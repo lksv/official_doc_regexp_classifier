@@ -1,0 +1,224 @@
+/Dotčené územní samosprávné celky/
+/Dotčené správní úřady/
+/ODBOR ŽIVOTNÍHO PROSTŘEDÍ/
+/ZÁVĚR ZJIŠŤOVACÍHO ŘÍZENÍ/
+/Rozdělovník/
+/Obdrží na vědomí/
+/Obdrží účastníci/
+/Poučení/
+/veřejnou výzvu/
+/účastníci řízení dle § 144 zákona č. 500/2004\. Sb\./
+/(?-i:SO č\. \d+)/
+/vítána znalost/
+/usnesení/
+/Přihlášky zasílejte/
+/dobré komunikační/
+/pečlivost/
+/zodpovědnost/
+/vysoké pracovní nasazení/
+/Hlasování:/
+/Pro/
+/Proti/
+/Zdržel se/
+/uchazeč/
+/Zadavatel/
+/duhodnurnu Cenu/
+/ičo/
+/Stavební povolení/
+
+
+/kanalizace/
+/studna/
+/půdního fondu/
+/ZPF/  #zemědělského půdního fondu
+/LPF/  # lesní půdní fond
+
+EIA
+
+/EIA/, 'eia'
+/hladiny hluku/, 'eia'
+/kvality ovzduší/, 'eia'
+/zlepšení kvality ovzduší/, 'eia'
+/kvality (?:pitné )?vody/, 'eia'
+/jaderný zdroj/, 'eia'
+/snížení emisí/, 'eia'
+/měření emisí/, 'eia'
+/vysokých koncentrací/, 'eia'
+/Posuzování vlivů na (?:životní PROSTŘEDÍ|ŽP)/, 'eia'
+/PZKO/, 'eia'
+/smogová situace/, 'eia'
+/vliv na životní prostředí/, 'eia'
+/dle ust\. § 7 odst\. 6 zákona č\. 100\/2001 Sb\., o posuzování vlivů na životní prostředí/, 'eia'
+/posuzování vlivu/, 'eia'
+/životní prostředí/, 'eia'
+
+Vodoprávní řízení
+
+/stavby vodního díla/, 'vodopravni_rizeni'
+/ČOV/, 'vodopravni_rizeni'
+/čističky odpadních vod/, 'vodopravni_rizeni'
+/splašková kanalizace/, 'vodopravni_rizeni'
+/povolení k vodním dílům/, 'vodopravni_rizeni'
+/Kopaná studna/, 'vodopravni_rizeni'
+/Vrtná studna/, 'vodopravni_rizeni'
+
+
+Péče o CHKO a rezervace
+
+/Plánu péče o CHKO/, 'chko_rezervace'
+/chráněná území/, 'chko_rezervace'
+/správ[ay] CHKO/, 'chko_rezervace'
+/Evropsky významnou lokalitu/, 'chko_rezervace'
+/EVL/, 'chko_rezervace'
+/Natura 2000/, 'chko_rezervace'
+/§ 45i, odst. 1 zákona/, 'chko_rezervace'
+/odbor životního prostředí/, 'chko_rezervace'
+/orgán ochrany přírody, příslušný podle § 77a odst\. 4 písm\. n\) zákona č\. 114\/1992 Sb/, 'chko_rezervace'
+/přírodní rezervace/, 'chko_rezervace'
+
+
+
+Oznámení o uložení písemnosti
+
+
+/Oznámení o uložení daňové písemnosti/, 'oznameni_ulozeni_pisemnosti'
+/že písemnost vydaná dne/, 'oznameni_ulozeni_pisemnosti'
+/že písemnost určená k doručení/, 'oznameni_ulozeni_pisemnosti'
+/je uložena k vyzvednutí/, 'oznameni_ulozeni_pisemnosti'
+/Písemnost je doručována veřejnou vyhláškou/, 'oznameni_ulozeni_pisemnosti'
+/Podle ust\.  § 25 odst\. 2 zák\. č\. 500\/2004 Sb\./, 'oznameni_ulozeni_pisemnosti'
+/do vlastních rukou/, 'oznameni_ulozeni_pisemnosti'
+/Nevyzvedne-li si adresát uloženou písemnost ve lhůtě/, 'oznameni_ulozeni_pisemnosti'
+/možnosti převzít písemnost/, 'oznameni_ulozeni_pisemnosti'
+/uložení písemnosti/, 'oznameni_ulozeni_pisemnosti'
+
+
+
+Exekuce
+
+/Usnesení o nařízení dražebního jednání/, 'exekuce'
+/dražební vyhláška/, 'exekuce'
+/elektronická dražba/, 'exekuce'
+/elektronické dražby/, 'exekuce'
+/exekutorský úřad/, 'exekuce'
+/dražebním jednáním/, 'exekuce'
+
+/Oznámení o exekuci/, 'exekuce'
+/Odročení exekuce/, 'exekuce'
+/Příkaz k exekuci/, 'exekuce'
+/Zrušení exekuce/, 'exekuce'
+/Zahájení exekuce/, 'exekuce'
+/Oznámení o skončení exekuce/, 'exekuce'
+
+/exekuční příkaz ze dne.*{1,60} nabyl právní moci/, 'exekuce'
+/Exekutorský úřad/, 'exekuce'
+/soudní exekutor/, 'exekuce'
+/\d+ EXE? \d+/, 'exekuce'
+
+/dražba nemovitých věcí/, 'exekuce'
+/předmětem dražby/, 'exekuce'
+/dražební vyhlášku/, 'exekuce'
+/elektronického systému dražeb/, 'exekuce'
+/§ 29/, 'exekuce'
+/§ 37 odst\. 3 a 4/, 'exekuce'
+/Odklad exekuce \(§ 54 e\. ř\. ?\)/, 'exekuce'
+
+
+
+Stavební úřad
+
+/zahájení řízení/, 'uzemni_rizeni'
+/Územní rozhodnutí/, 'uzemni_rizeni'
+/podle § 13 odst\. 1 písm\. c. zákona č\. 183\/2006 Sb./, 'uzemni_rizeni'
+/Územní rozhodnutí/
+/Stavební úřad rozhodl/
+/Rozhodnutí má podle § 93 odst. 1 stavebního zákona platnost/
+/jako stavební úřad příslušný podle § 13 odst\. 1 písm\. c/
+
+/ÚZEMNÍ ROZHODNUTÍ/, 'uzemni_rizeni'
+/Stanoví podmínky pro umístění Stavby/, 'uzemni_rizeni'
+/zahájení řízení a pozvání k ústnímu jednání', 'uzemni_rizeni'
+
+
+/územní řízení/, 'uzemni_rizeni'
+/oznámení o zahájení stavebního řízení/, 'stavebni_povoleni'
+/oznámení o zahájení územního řízení/, 'uzemni_rizeni'
+/prodloužení platnosti územního rozhodnutí/, 'uzemni_rizeni'
+/prodloužení platnosti stavebního povolení/, 'stavebni_povoleni'
+/veřejnoprávní smlouvy nahrazující stavební povolení/, 'stavebni_povoleni'
+/veřejnoprávní smlouvy nahrazující územní rozhodnutí/, 'uzemni_rizeni'
+/stavební povolení/, 'stavebni_povoleni'
+
+
+Pozice
+
+/na obsazení pracovní pozice/, 'pozice'
+/na obsazení pracovních míst/, 'pozice',
+/Výběrové řízení na obsazení pozice/, 'pozice'
+/Výběrové řízení na místo/, 'pozice'
+/výběrové řízení(.{1,40})zaměstnaní/, 'pozice'
+/pracovní pozice/, 'pozice'
+/pracovního poměru/, 'pozice'
+
+
+Zápisy
+
+/zasedání zastupitelstva/, 'zapisy'
+/jednání zastupitelstva/, 'zapisy'
+/zápis č\. ?\d+ z jednání komise/, 'zapisy'
+/Zápis z jednání/, 'zapisy'
+/Zapsala: /, 'zapisy'
+/Se ujal Slova/, 'zapisy'
+/Termín nástupu/, 'zapisy'
+/Zápis Rady/, 'zapisy'
+/schůze rady města/, 'zapisy'
+/Zápis z mimořádného zasedání zastupitelstva/, 'zapisy'
+/Zápis ze (?:zasedání )?zastupitelstva/, 'zapisy'
+/Zápis z \d+\. zasedání zastupitelstva/, 'zapisy'
+/Zápis z konání zastupitelstva/, 'zapisy'
+/ZÁPIS USNESENÍ/, 'zapisy'
+/Hlasování/, 'zapisy'
+/program zmč/, 'zapisy'
+/Program \d+. zasedání Zastupitelstva/, 'zapisy'
+/Program jednání Zastupitelstvo/, 'zapisy'
+/Program jednání/, 'zapisy'
+
+
+
+Verejna zakazka, nabidky
+
+/veřejnou zakázku/, 'zakazka'
+/veřejná zakázka/, 'zakazka'
+/podání nabídky/, 'zakazka'
+/Veřejný zadavatel/, 'zakazka'
+/podlimitní veřejnou zakázku/, 'zakazka'
+/Zadávací dokumentace/, 'zakazka'
+/údaje zadavatele/, 'zakazka'
+/předmětu? veřejné zakázky/, 'zakazka'
+
+
+
+Prodej a pronájem
+
+
+/záměr pronájmu/, 'prodej_pronajem'
+/záměr prodeje/, 'prodej_pronajem'
+/prodej majetku/, 'prodej_pronajem'
+/pronájem majetku/, 'prodej_pronajem'
+/odprodej/, 'prodej_pronajem'
+/prodej nemovit[ií]/, 'prodej_pronajem'
+/prodat nemovit/, 'prodej_pronajem'
+/prodej(.{0,15})pozemku/, 'prodej_pronajem'
+/prodej(.{0,15})domu/, 'prodej_pronajem'
+/záměr prodat/, 'prodej_pronajem'
+
+
+
+
+Smlouva
+
+/SMLOUVA O DÍLO/, 'smlouva'
+/SMLUVNÍ STRANY/, 'smlouva'
+/objednatel/, 'smlouva'
+/Zhntovitel/, 'smlouva'
+/SMLUVNÍ POKUTY/, 'smlouva'
