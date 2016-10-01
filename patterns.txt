@@ -25,13 +25,15 @@
 /duhodnurnu Cenu/
 /ičo/
 /Stavební povolení/
-
+/dotace/
+/zasedání zastupitelstva/
 
 /kanalizace/
 /studna/
 /půdního fondu/
 /ZPF/  #zemědělského půdního fondu
 /LPF/  # lesní půdní fond
+/odbor životního prostředí/
 
 EIA
 
@@ -72,7 +74,6 @@ Péče o CHKO a rezervace
 /EVL/, 'chko_rezervace'
 /Natura 2000/, 'chko_rezervace'
 /§ 45i, odst. 1 zákona/, 'chko_rezervace'
-/odbor životního prostředí/, 'chko_rezervace'
 /orgán ochrany přírody, příslušný podle § 77a odst\. 4 písm\. n\) zákona č\. 114\/1992 Sb/, 'chko_rezervace'
 /přírodní rezervace/, 'chko_rezervace'
 
@@ -91,6 +92,7 @@ Oznámení o uložení písemnosti
 /Nevyzvedne-li si adresát uloženou písemnost ve lhůtě/, 'oznameni_ulozeni_pisemnosti'
 /možnosti převzít písemnost/, 'oznameni_ulozeni_pisemnosti'
 /uložení písemnosti/, 'oznameni_ulozeni_pisemnosti'
+/které si lze převzít na/, 'oznameni_ulozeni_pisemnosti'
 
 
 
@@ -138,6 +140,7 @@ Stavební úřad
 /ÚZEMNÍ ROZHODNUTÍ/, 'uzemni_rizeni'
 /Stanoví podmínky pro umístění Stavby/, 'uzemni_rizeni'
 /zahájení řízení a pozvání k ústnímu jednání', 'uzemni_rizeni'
+/Rozhodnutí o umístění stavby/, 'uzemni_rizeni'
 
 
 /územní řízení/, 'uzemni_rizeni'
@@ -148,6 +151,15 @@ Stavební úřad
 /veřejnoprávní smlouvy nahrazující stavební povolení/, 'stavebni_povoleni'
 /veřejnoprávní smlouvy nahrazující územní rozhodnutí/, 'uzemni_rizeni'
 /stavební povolení/, 'stavebni_povoleni'
+/zábor ZPF/, 'uzemni_rizeni'
+/trvalý zábor/, 'uzemni_rizeni'
+
+
+/o NÁVRHU ÚZEMNÍHO PLÁNU/, 'uzemni_planovani'
+/Územní plán/, 'uzemni_planovani'
+/Odůvodnění územního plánu/, 'uzemni_planovani'
+/Grafická část územního plánu/, 'uzemni_planovani'
+/Odbor rozvoje města a územního plánování/, 'uzemni_planovani'
 
 
 Pozice
@@ -159,17 +171,19 @@ Pozice
 /výběrové řízení(.{1,40})zaměstnaní/, 'pozice'
 /pracovní pozice/, 'pozice'
 /pracovního poměru/, 'pozice'
+/Termín nástupu/, 'pozice'
+/obsazení pracovního místa/, 'pozice'
+
 
 
 Zápisy
 
-/zasedání zastupitelstva/, 'zapisy'
+/zasedání zastupitelstva/ # jasnej jen pro title!!!
 /jednání zastupitelstva/, 'zapisy'
 /zápis č\. ?\d+ z jednání komise/, 'zapisy'
 /Zápis z jednání/, 'zapisy'
 /Zapsala: /, 'zapisy'
 /Se ujal Slova/, 'zapisy'
-/Termín nástupu/, 'zapisy'
 /Zápis Rady/, 'zapisy'
 /schůze rady města/, 'zapisy'
 /Zápis z mimořádného zasedání zastupitelstva/, 'zapisy'
@@ -197,6 +211,10 @@ Verejna zakazka, nabidky
 /předmětu? veřejné zakázky/, 'zakazka'
 
 
+Dodavky
+
+/přerušení dodávky elektřiny/, 'dodavky'
+/vypínání elektřiny/, 'dodavky'
 
 Prodej a pronájem
 
@@ -211,7 +229,20 @@ Prodej a pronájem
 /prodej(.{0,15})pozemku/, 'prodej_pronajem'
 /prodej(.{0,15})domu/, 'prodej_pronajem'
 /záměr prodat/, 'prodej_pronajem'
-
+/Záměr města prodat/, 'prodej_pronajem'
+/Záměr města pronajmout pozemek/, 'prodej_pronajem'
+/Záměr města pronajmout část pozemeku/, 'prodej_pronajem'
+/Záměr města prodat pozemek/, 'prodej_pronajem'
+/Záměr města prodat část pozemeku/, 'prodej_pronajem'
+/Záměr města uzavřít dodatek k náj(?:emní|\.) sml(?:ouvě|\.)/, 'prodej_pronajem'
+/Pronájem části pozemku/, 'prodej_pronajem'
+/uzavření dodatku k nájemní smlouvě/, 'prodej_pronajem'
+/(?:pronajem|prodej) bytu/, 'prodej_pronajem'
+/Záměr pachtu/, 'prodej_pronajem'
+/Pacht pozemků/, 'prodej_pronajem'
+/pacht nemovitostí/, 'prodej_pronajem'
+/Zamery obce prodat, smenit, pronajmout nebo darovat nemovity majetek/, 'prodej_pronajem'
+/prodat, směnit, pronajmout nebo darovat/, 'prodej_pronajem'
 
 
 
@@ -222,3 +253,44 @@ Smlouva
 /objednatel/, 'smlouva'
 /Zhntovitel/, 'smlouva'
 /SMLUVNÍ POKUTY/, 'smlouva'
+/tuto smlouvu o/, 'smlouva'
+
+
+Dotace
+
+/Žádost o dotaci/, 'dotace'
+/kotlíkov[éá] dotace/, 'dotace'
+/Programové dotace/, 'dotace'
+/o poskytnutí (?:účelové |INDIVIDUÁLNÍ )?dotace/, 'dotace'
+/Finanční vyúčtování dotace poskytnuté/, 'dotace'
+/příjemce dotace/, 'dotace'
+
+
+Ztráty a nálezy
+
+/Ztráty a nálezy/, 'ztraty_nalezy'
+/Oznámení o nálezu/, 'ztraty_nalezy'
+/Oznámení o vyhlášení nálezu/, 'ztraty_nalezy'
+/Vyhlášení nálezů/, 'ztraty_nalezy'
+/se mohou o své věci hlásit/, 'ztraty_nalezy'
+/oznámeny a předány nalezené věci/, 'ztraty_nalezy'
+/se přihlásit o tyto níže nalezené věci/, 'ztraty_nalezy'
+/Ztrátu věci je třeba hodnověrně doložit/, 'ztraty_nalezy'
+/Vlastnictví k věci je třeba jednoznačně prokázat/, 'ztraty_nalezy'
+/Poctivý nálezce má právo na nálezné/, 'ztraty_nalezy'
+
+
+Dopava
+
+/stanovení přechodné úpravy provozu/, 'doprava'
+/přechodnou úpravu provozu na pozemních komunikacích/, 'doprava'
+/přechodného dopravního značení/, 'doprava'
+/přechodné dopravní značení/, 'doprava'
+/dopravní(?:mu)? značení/, 'doprava'
+/Dopravní situace/, 'doprava'
+/záboru místní komunikace/, 'doprava'
+/užívání pozemní komunikace pro stavební zábory/, 'doprava'
+/Dočasný zákaz zastavení na pozemní komunikaci/, 'doprava'
+/úpravy provozu na pozemní komunikaci/, 'doprava'
+/stanovení přechodné DZ/, 'doprava'
+

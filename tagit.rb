@@ -1,6 +1,6 @@
 require 'json'
 
-TITLES = JSON.load(File.open('titles.id.txt'))
+TITLES = JSON.load(File.open('../titles.id.txt'))
 
 Pattern = Struct.new(:category, :regexp) do
   def match(string)
@@ -10,7 +10,7 @@ end
 
 class Clasifier
   def initialize
-    @patterns = File.read('reg_exp_patterns/lukas.txt') .split(/\n/).map do |pattern|
+    @patterns = File.read('patterns.txt') .split(/\n/).map do |pattern|
       pattern.sub!(/ #.*$/, '')
       category, regexp = pattern.reverse.split(',', 2).map(&:reverse)
       regexp = regexp[/\/(.*)\//, 1] if regexp
@@ -36,7 +36,7 @@ def get_categories(id, title, text)
   puts text
 end
 
-Dir['backup/*/[0-9]*.txt'].sort_by { |f| f[/(\d+)\.txt/, 1] }.each do |file|
+Dir['../backup/*/[0-9]*.txt'].sort_by { |f| f[/(\d+)\.txt/, 1] }.each do |file|
   id = file[/(\d+)\.txt/, 1]
   title = TITLES[id]
   fail "ID=#{id.inspect}: do not have title for file: #{file}" unless title
