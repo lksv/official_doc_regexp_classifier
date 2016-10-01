@@ -22,9 +22,17 @@ class Clasifier
   def run(string)
     @patterns.find_all { |pattern| pattern.match(string) }
   end
+
+  def size
+    @patterns.size
+  end
 end
 
 @c = Clasifier.new
+
+puts @c.size
+
+exit 1
 
 def get_categories(id, title, text)
   puts "=" * 80
