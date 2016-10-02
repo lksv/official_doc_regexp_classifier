@@ -76,6 +76,7 @@ Péče o CHKO a rezervace
 /§ 45i, odst. 1 zákona/, 'chko_rezervace'
 /orgán ochrany přírody, příslušný podle § 77a odst\. 4 písm\. n\) zákona č\. 114\/1992 Sb/, 'chko_rezervace'
 /přírodní rezervace/, 'chko_rezervace'
+/významný krajinný prvek/, 'chko_rezervace'
 
 
 
@@ -165,7 +166,7 @@ Stavební úřad
 Pozice
 
 /na obsazení pracovní pozice/, 'pozice'
-/na obsazení pracovních míst/, 'pozice',
+/na obsazení pracovních míst/, 'pozice'
 /Výběrové řízení na obsazení pozice/, 'pozice'
 /Výběrové řízení na místo/, 'pozice'
 /výběrové řízení(.{1,40})zaměstnaní/, 'pozice'
@@ -196,6 +197,7 @@ Zápisy
 /Program \d+. zasedání Zastupitelstva/, 'zapisy'
 /Program jednání Zastupitelstvo/, 'zapisy'
 /Program jednání/, 'zapisy'
+/Svolání \d+\. zasedání/, 'zapisy'
 
 
 
@@ -209,6 +211,7 @@ Verejna zakazka, nabidky
 /Zadávací dokumentace/, 'zakazka'
 /údaje zadavatele/, 'zakazka'
 /předmětu? veřejné zakázky/, 'zakazka'
+/hodnocení nabídek/, 'zakazka'
 
 
 Dodavky
@@ -293,4 +296,19 @@ Dopava
 /Dočasný zákaz zastavení na pozemní komunikaci/, 'doprava'
 /úpravy provozu na pozemní komunikaci/, 'doprava'
 /stanovení přechodné DZ/, 'doprava'
+/stanovení (?-i:PÚP)/
 
+Hospodaření
+
+/Výroční zpráva/, 'hospodareni'
+/výkaz zisku a ztráty/, 'hospodaření'
+/výsledek hospodaření (?:před|po) zdanění/, 'hospodaření'
+/zjednodušená rozvaha/, 'hospodaření'
+/aktiva celkem/, 'hospodaření'
+/pasiva celkem/, 'hospodaření'
+/Přehled žádostí o informace/, 'hospodaření'
+/Přehled žádostí o informace dle zákona/, 'hospodaření'
+/přezkoumání hospodaření/, 'hospodareni'
+/závěrečný účet za rok/, 'hospodareni'
+/návrh závěrečného účtu/, 'hospodareni'
+/Zpráva nezávislého auditora/, 'hospodareni'

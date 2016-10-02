@@ -8,6 +8,8 @@ Pattern = Struct.new(:category, :regexp) do
   end
 end
 
+KEYWORDS = File.read('keywords.regexp').split(/\n/).map { |kw| Regexp.new(kw) }
+
 class Clasifier
   def initialize
     @patterns = File.read('patterns.txt') .split(/\n/).map do |pattern|
@@ -26,13 +28,20 @@ class Clasifier
   def size
     @patterns.size
   end
+
+  def features_vec(string)
+    keywords = KEYWORDS.map { |pattern| pattern.match(string) ? 1 : 0 }
+    regexp_vec = @patterns.map { |pattern| pattern.match(string) ? 1 : 0 }
+    sizes_vec = [
+      [1, Math.log(string.size,10)/10].min,
+      [1, Math.log(string.split(/\s*/).size,10)/10].min,
+      [1, Math.log(string.split(/\n\s*\n/).size,10)/10].min
+    ]
+    keywords + regexp_vec + sizes_vec
+  end
 end
 
 @c = Clasifier.new
-
-puts @c.size
-
-exit 1
 
 def get_categories(id, title, text)
   puts "=" * 80
@@ -49,5 +58,7 @@ Dir['../backup/*/[0-9]*.txt'].sort_by { |f| f[/(\d+)\.txt/, 1] }.each do |file|
   title = TITLES[id]
   fail "ID=#{id.inspect}: do not have title for file: #{file}" unless title
   body = File.read(file)
-  categories = get_categories(id, title, [title, body].join("\n"))
+  content = [title, body].join("\n")
+  categories = get_categories(id, title, content)
+  #puts @c.features_vec(content).unshift(id).join(',')
 end
